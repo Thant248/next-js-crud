@@ -1,0 +1,89 @@
+/* app/posts/page.module.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* form {
+    margin-top: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #005bb5;
+  } */
+  
+/* app/posts/page.module.css */
+.inputBox {
+    background-color: lightgray; /* Background color of the input box */
+    color: black; /* Text color inside the input box */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .inputBox::placeholder {
+    color: gray; /* Placeholder text color */
+  }
+  
+  .label {
+    color: rgb(243, 19, 19); /* Label text color */
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 4px;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+
+  .text {
+    color: #b54200;
+  }
+  
